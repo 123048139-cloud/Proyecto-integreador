@@ -27,7 +27,7 @@ export default function NotificacionesScreen() {
       keyExtractor={(item) => item.id}
       renderItem={({ item }) => (
         <View style={styles.tarjeta}>
-          <Text style={styles.titulo}>Notificacion {item.titulo}</Text>
+          <Text style={styles.titulo}>🔔 {item.titulo}</Text>
           <Text style={styles.mensaje}>{item.mensaje}</Text>
         </View>
       )}

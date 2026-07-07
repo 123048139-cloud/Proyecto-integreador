@@ -5,7 +5,7 @@ export default function EscaneoQRScreen() {
   return (
     <View style={styles.container}>
       <View style={styles.marcoQR}>
-        <Text style={styles.iconoQR}>Camara</Text>
+        <Text style={styles.iconoQR}>📷</Text>
         <Text style={styles.textoMarco}>Cámara aparecerá aquí</Text>
       </View>
       <Text style={styles.instrucciones}>

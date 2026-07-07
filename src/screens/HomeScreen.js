@@ -8,11 +8,11 @@ import {
 } from "react-native";
 
 const opciones = [
-  { label: " Registrar Residuo", screen: "RegistroResiduos" },
-  { label: " Escanear Contenedor (QR)", screen: "EscaneoQR" },
-  { label: " Reportar Contenedor Lleno", screen: "ReporteContenedores" },
-  { label: " Consultar Rutas", screen: "Rutas" },
-  { label: " Notificaciones", screen: "Notificaciones" },
+  { label: "📋 Registrar Residuo", screen: "RegistroResiduos" },
+  { label: "📷 Escanear Contenedor (QR)", screen: "EscaneoQR" },
+  { label: "🗑️ Reportar Contenedor Lleno", screen: "ReporteContenedores" },
+  { label: "🚚 Consultar Rutas", screen: "Rutas" },
+  { label: "🔔 Notificaciones", screen: "Notificaciones" },
 ];
 
 export default function HomeScreen({ navigation }) {
